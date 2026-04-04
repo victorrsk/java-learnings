@@ -1,4 +1,4 @@
-package poo.stringbuilder;
+package basics.stringbuilder;
 
 public class Comment {
     private String text;

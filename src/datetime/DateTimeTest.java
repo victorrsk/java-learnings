@@ -1,10 +1,8 @@
 package datetime;
 
-import java.time.Instant;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
+import java.time.*;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.TemporalAmount;
 
 public class DateTimeTest {
     static void main(String[] args) {
@@ -47,5 +45,8 @@ public class DateTimeTest {
         System.out.println(LocalDateTime.now());
         System.out.println(Instant.now());
         System.out.println("------------------------------------------");
+
+        Period period = Period.between(LocalDate.now(), LocalDate.of(2026, 3, 31));
+        System.out.println(period.getDays());
     }
 }

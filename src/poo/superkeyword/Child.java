@@ -1,4 +1,4 @@
-package poo.Super;
+package poo.superkeyword;
 
 public class Child extends Super {
     public String name;

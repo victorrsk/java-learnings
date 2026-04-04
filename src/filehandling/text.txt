@@ -1,0 +1,9 @@
+New file content
+New file content
+New file content
+New file content
+New file content
+New file content
+New file content
+New file content
+try with resources block

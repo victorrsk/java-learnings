@@ -1,4 +1,4 @@
-package poo.stringbuilder;
+package basics.stringbuilder;
 
 import java.time.LocalDateTime;
 

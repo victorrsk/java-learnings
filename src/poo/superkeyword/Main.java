@@ -1,4 +1,4 @@
-package poo.Super;
+package poo.superkeyword;
 
 public class Main {
     public static void main(String[] args) {
