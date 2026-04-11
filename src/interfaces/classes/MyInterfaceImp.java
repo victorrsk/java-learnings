@@ -26,7 +26,16 @@ public class MyInterfaceImp implements MyInterface {
     }
 
     @Override
-    public void superInterfaceMethod() {
+    public void method() {
+        System.out.println("This is an superinterface constant: " + TEN);
+    }
 
+    @Override
+    public void superInterfaceMethod() {
+        System.out.println();
+    }
+
+    @Override
+    public void anotherSuperMethod() {
     }
 }
